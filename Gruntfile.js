@@ -15,16 +15,9 @@ module.exports = function(grunt) {
 			},
 
 			options: {
-				node: true,
-				globals: {
-					describe: true,
-					it: true,
-					before: true,
-					after: true,
-					beforeEach: true,
-					afterEach: true
-				}
+				jshintrc: true
 			}
+			
 		},
 
 		simplemocha: {
