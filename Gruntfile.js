@@ -40,6 +40,5 @@ module.exports = function(grunt) {
 
 	});
 	grunt.registerTask('test', ['jshint:dev', 'simplemocha:dev']);
-	grunt.registerTask('eye', ['watch']);
 	grunt.registerTask('default', ['test']);
 };
