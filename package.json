@@ -4,11 +4,11 @@
   "description": "simple Grunt tasks and add json",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/grunt-cli/bin/grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "./node_modules/grunt-cli/bin/grunt test"
+    "url": "https://github.com/redfieldstefan/gruntfile-json-excercise"
   },
   "author": "redfield.stefan@gmail.com",
   "license": "ISC",
